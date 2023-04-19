@@ -1,0 +1,22 @@
+@import url("./rodapie-menu.css");
+@import url("./rodapie-info.css");
+
+.rodapie {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+}
+
+@media (min-width: 768px) {
+  .rodapie {
+    flex-direction: row;
+    gap: 94px;
+  }
+}
+
+@media (min-width: 992px) {
+  .rodapie {
+    padding: 64px 0;
+  }
+}

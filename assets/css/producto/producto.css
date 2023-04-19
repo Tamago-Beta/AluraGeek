@@ -1,0 +1,72 @@
+@import url("./producto-config.css");
+
+.producto {
+  position: relative;
+  width: calc(95% / 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 8px;
+}
+
+.producto__portada {
+  width: 100%;
+  height: 174px;
+  object-fit: cover;
+  filter: contrast(155%) brightness(18%);
+}
+
+.producto__titulo {
+  color: var(--tertiary-color);
+  font-size: var(--font-size-card-titulo);
+  font-weight: 500;
+}
+
+.producto__precio {
+  color: var(--tertiary-color);
+  font-size: var(--font-size-card-precio);
+  font-weight: 700;
+}
+
+.producto__id {
+  color: var(--tertiary-color);
+  font-size: var(--font-size-card-id);
+  font-weight: 500;
+  gap: 2px;
+}
+
+.producto__detalle {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .producto,
+  .producto-categoria {
+    width: calc(95% / 4);
+  }
+  .producto-cabecera {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .productos-lista {
+    justify-content: flex-start;
+    gap: 30px 10px;
+  }
+  .detalle-cover {
+    display: block;
+  }
+  .producto-cabecera__boton--vinculo,
+  .producto-contenido__vinculo {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .producto,
+  .producto-categoria {
+    width: calc(95% / 6);
+  }
+  .producto-categoria:nth-last-child(-n + 2) {
+    display: block;
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "productos": [
+    {
+      "portada": "../assets/img/tokyoghoul.jpg",
+      "titulo": "Tokyo Ghoul",
+      "categoria": "seinen",
+      "precio": "12",
+      "descripcion": "Los habitantes de Tokio viven aterrados: en las sombras de la metrópolis se ocultan horribles monstruos que se camuflan entre la multitud, cazando y devorando seres humanos. Un joven se topa con uno de estos ghouls, pero aunque consigue sobrevivir, su existencia ya no será igual…",
+      "id": "687dc623-78f3-41e7-bea4-bb05334662fa"
+    },
+    {
+      "portada": "../assets/img/onepice.webp",
+      "titulo": "One Piece",
+      "categoria": "shonen",
+      "precio": "12",
+      "descripcion": "Esta es la gran Era Pirata. Gold Roger, el legendario “Rey de los piratas” ha dejado el “One Piece” - su legendario Tesoro - escondido en una zona del mundo llamada “GRAND LINE” y los piratas más fuertes compiten por hallarlo. Un niño llamado Luffy idolatraba a los piratas, en especial a Shanks, el líder de una tripulación que visitó su villa. Un día, por accidente, Luffy comió una “fruta del diablo” del botín de Shanks. Gracias a esa fruta, su cuerpo se ha vuelto de goma pero nunca podrá nadar. El día que los piratas abandonaron la villa, Shanks le obsequió a Luffy su mas preciada posesión: su sombrero de paja. Diez años han pasado desde ese día y Luffy ha salido al mar buscando convertirse en el nuevo “Rey de los piratas”. ¡Aquí inicia la gran aventura de Luffy!",
+      "id": "687dc623-78f3-41e7-bea4-bb05334662fe"
+    },
+    {
+      "portada": "../assets/img/fullmetal.webp",
+      "titulo": "Full metal alchemist",
+      "categoria": "seinen",
+      "precio": "30",
+      "descripcion": "Los hermanos Edward y Alphonse Elric viven en un mundo donde la magia y la alquimia existen y se pueden practicar. Después de la muerte de su madre, juntos tratarán de resucitarla a través de la alquimia. Pero algo sale mal y Edward pierde un brazo y una pierna, y el espíritu de Alphonse acaba relegado en una vieja armadura.\n\nPara poder recuperar sus cuerpos deciden apuntarse al ejército de Amestris, en la división de alquimistas, para así poder seguir investigando sobre “la piedra filosofal” que puede devolverlos a la normalidad. Lo que no esperaban descubrir es que detrás de la piedra filosofal hay toda una conspiración escondida para destruir el mundo entero tal y como lo conocemos…",
+      "id": "53b435fb-7e2e-431e-96ba-50221cb67237"
+    },
+    {
+      "portada": "../assets/img/FruitsBasket.webp",
+      "titulo": "Fruit Basket",
+      "categoria": "shoujo",
+      "precio": "12",
+      "descripcion": "Fruits Basket narra la historia de la joven Tooru, una estudiante huérfana que vive en una tienda de campaña. El carácter fuerte y decidido de Tooru hacen que viva el día a día con resolución. El enredo arranca cuando Tooru va a vivir a casa de los Soma, una familia que sufre una curiosa maldición: ¡se transforman en los animales del Zodíaco chino!",
+      "id": "be53c489-95ac-4ccd-9c9a-4f207525e935"
+    },
+    {
+      "portada": "../assets/img/kingdom.jpg",
+      "titulo": "Kingdom",
+      "categoria": "seinen",
+      "precio": "20",
+      "descripcion": "La historia nos traslada a lo que ahora es China hacia el año 300 a.c., una época en la que la zona está dividida en siete reinos que luchan por cada palmo de terreno con sus vecinos, mientras estallan continuas guerras civiles intestinas y también con clanes que tienen su propio modo de vida. Shin es niño huérfano de guerra que vive en el reino de Qin y que ha acabado convertido en esclavo. Junto a su amigo Hyou, sueña con convertirse en un gran general como los legendarios que condujeron enormes ejércitos. Su vida da un vuelco el día que reclutan a Hyou como doble de Ei Sei, Rey de Qin, y ahí empiezan una serie de acontecimientos que lo llevan a unirse al ejército y vivir el mismo sueño que su Rey: unificar los siete reinos en uno solo, China. Las guerras que aparecen son de una escala enorme, con decenas de miles de soldados y conoceremos a decenas de personajes de cada reino que tendrán un papel crucial en ellas, haciendo uso de la estrategia, de las tácticas y del puro instinto. El dibujo de Yasuhisa Hara, que fue ayudante y es amigo de Takehiko Inoue, tiene una evolución espectacular y nos refleja perfectamente tanto la grandeza, como el horror, el gore y la dureza de las guerras. A través de grandes campañas, cada capítulo nos deja con ganas de más en una historia perfectamente hilada, llena de momentos épicos y que hacen que te acabes preguntando “¿Cómo se las arreglarán?”.",
+      "id": "0e0502f8-1396-4cc7-bbf7-82477f7ed166"
+    },
+    {
+      "portada": "../assets/img/AoHaruRide.webp",
+      "titulo": "Ao Haru Ride",
+      "categoria": "shoujo",
+      "precio": "12",
+      "descripcion": "Ao Haru Ride gira en torno a Futaba Yoshioka, una chica que en secundaria estaba enamorada de un chico llamado Kou Tanaka. Sin embargo, tras un malentendido, su relación como amigos finaliza cuando él cambia de escuela durante las vacaciones de verano. En el instituto, el mundo de Futaba se pone al revés al coincidir nuevamente con Kou, que ahora se llama Kou Mabuchi.",
+      "id": "e4d8a896-06b9-47b4-bb1b-41c4e6ec2f54"
+    },
+    {
+      "portada": "../assets/img/neverland.webp",
+      "titulo": "The promise neverland",
+      "categoria": "shonen",
+      "precio": "90.00",
+      "descripcion": "Emma, Norman y Ray son tres huérfanos que viven felices en el idílico orfanato Grace Field House, esperando el momento en el que se les asignará una familia adoptiva. Todo cambia cuando descubren accidentalmente la horrorosa realidad de su existencia, así que deciden rebelarse y luchar hasta las últimas consecuencias en una oscura y aterradora aventura. Pero su tiempo se acaba…",
+      "id": "0e06fa8b-7a07-46a5-81ee-7665799e3486"
+    },
+    {
+      "portada": "../assets/img/naruto.webp",
+      "titulo": "Naruto",
+      "categoria": "shonen",
+      "precio": "30.00",
+      "descripcion": "En la Villa Oculta de la Hoja, un chaval de lo más problemático que estudia en la escuela de ninjas, Naruto, se dedica a urdir gamberrada tras gamberrada.El sueño de Naruto es el de llegar un día a heredar el nombre de Hokage, reservado a los grandes héroes y de convertirse en el mejor ninja de todos los tiempos.¡¿Podrá Naruto llegar a cumplir sus anhelos de grandeza?!",
+      "id": "c5afa6d8-222c-4356-b462-8074ad78d296"
+    },
+    {
+      "portada": "../assets/img/sunkenrock.jpg",
+      "titulo": "Sun ken Rock",
+      "categoria": "seinen",
+      "precio": "20",
+      "descripcion": "Boichi vuelve a Ivrea con uno de sus mangas más aclamados: Sun-ken Rock! La histo ria se centra en Ken, un chico huérfano por culpa de los lazos de su familia con la Yaku za. Su vida son las peleas y las broncas, pero si algo lo motiva es estar coladito por su compañera de clase, Yumin. Cuando esta decide irse a Korea para convertirse en policía, Ken no se lo pensará dos veces y querrá seguir sus pasos. Por casualidades de la vida, las cosas no irán como él esperaba y se convertirá en al guien sin oficio ni beneficio. Pero tiempo más tarde, llama la atención de una banda mafiosa y acaba metido hasta las cejas en ella. Siendo Yumin policía, las cosas se van a complicar bastante para Ken.",
+      "id": "d51408c8-e772-4d41-a279-a428e3dec914"
+    },
+    {
+      "portada": "../assets/img/vinlandsaga.jpg",
+      "titulo": "Vindland Saga",
+      "categoria": "seinen",
+      "precio": "25",
+      "descripcion": "Desafiando las rígidas leyes vikingas y a pesar de ser un gran guerrero, Thors decide huir de la cruenta vida que llevaba con su familia. Al ser descubierto, será perseguido durante su viaje marítimo por un mercenario de nombre Askeladd, cayendo finalmente en una emboscada junto a su expedición. Ganará la batalla contra sus atacantes, aunque a un alto precio: Thors dará su vida para que el resto de la tripulación, incluido su hijo Thorfinn, vivan.\n\nDesde aquel instante Thorfinn jura vengarse. Sin embargo, será apresado por Askeladd y obligado a enrolarse en su barco. Pero aún le quedará una esperanza. Según el código vikingo, Thorfinn tendrá derecho de retar a Askeladd a duelo si cumple una serie de difíciles tareas, como sabotear o matar a generales enemigos, lo que lo les llevará a involucrarse incluso en la guerra por la corona de Inglaterra.",
+      "id": "ff2bbf38-65c7-4afc-9451-8dcee8a0930d"
+    },
+    {
+      "portada": "../assets/img/Kaichou.jpg",
+      "titulo": "Kaichou Wa Maid-Sama!",
+      "categoria": "shoujo",
+      "precio": "12",
+      "descripcion": "Seika, la que tradicionalmente había sido una prestigiosa escuela masculina, ha pasado a ser un centro educativo mixto. Pero, a pesar de ello, la proporción de alumnado femenino sigue siendo una minoría, incluso después de que Misaki Ayuzawa se propusiera tomar las riendas del consejo estudiantil para, entre otras cosas, conseguir que las chicas se sientan seguras en un ambiente tan hostil.\n\nA partir de aquí, esta obra de Hiro Fujiwara nos narra la historia entre Takumi y Misaki, los cuales, inesperadamente, descubren que se han enamorado el uno del otro, así como también las rivalidades surgidas con los alumnos de la escuela Miyabigaoka y todos los líos propios de la vida estudiantil en un instituto.",
+      "id": "6ef46f9d-1707-4796-9b5b-b63d80772c41"
+    },
+    {
+      "portada": "https://http2.mlstatic.com/D_NQ_NP_855419-MPE31027657773_062019-O.jpg",
+      "titulo": "Kimetsu no yaiba",
+      "categoria": "shonen",
+      "precio": "20.00",
+      "descripcion": "a serie narra las desventuras de Tanjiro, un joven de un Japón feudal fantástico que se ve abocado a la venganza después de que un demonio acabe con toda su familia, a excepción de su hermana, Nezuko, también demoníaca y sedienta de sangre. El muchacho entrenará hasta convertirse en cazador de demonios, primero, en busca del culpable de la masacre, pero, sobre todo, para intentar revertir lo ocurrido con su hermana y volver a hacerla humana.",
+      "id": "bc0253da-6cba-41d6-ba46-d3f0510001b6"
+    },
+    {
+      "portada": "https://i.ebayimg.com/images/g/L2wAAOSwgT1j2M5w/s-l500.jpg",
+      "titulo": "Batuque",
+      "categoria": "seinen",
+      "precio": "20.00",
+      "descripcion": "Ichiri Sanjou es una chica que siempre se ha sentido un poco fuera de lugar, y cuya vida cambia cuando un vagabundo la salva de un atraco usando la capoeira.",
+      "id": "d7bd7399-cfaa-4a4a-9b6d-78f66ee28915"
+    },
+    {
+      "portada": "https://ramenparados.com/wp-content/uploads/2021/04/SHY-1-esp-300x476.jpg",
+      "titulo": "SHY",
+      "categoria": "shonen",
+      "precio": "20.00",
+      "descripcion": "A mediados del siglo XXI, las guerras desaparecieron del mundo junto con la aparición de superhéroes en todos los países del planeta. Una vez solucionado el conflicto, nuestros héroes volvieron a sus países para ocuparse de otros asuntos. Esta es la historia de Shy, una joven y tímida heroína japonesa.",
+      "id": "367bf5ec-3728-4ca1-aad7-7df7a031a0d4"
+    },
+    {
+      "portada": "https://estruendomudo.pe/imagenes/9788411/978841112374.JPG",
+      "titulo": "Blue Lock",
+      "categoria": "shonen",
+      "precio": "20.00",
+      "descripcion": "Tras una desastrosa derrota en el Mundial 2018, la selección de Japón lucha por recuperarse. ¿Pero qué le falta? Un delantero absoluto, que pueda guiarles hacia la victoria. La Asociación de Fútbol de Japón está empeñada en crear un delantero con hambre de gol y sed de victoria, que pueda ser el instrumento decisivo para dar la vuelta a un partido perdido… y para ello ha reunido a 300 de los mejores y más brillantes jugadores juveniles de Japón, encerrándolos en un centro conocido como “Blue Lock”. ¿Quién se convertirá en el líder del equipo? ¿Será capaz de superar a todos los que se interpongan en su camino?",
+      "id": "8a501e7c-9b9f-4b5b-8228-54b90b2d524b"
+    },
+    {
+      "portada": "../assets/img/AkatsukinoYona.webp",
+      "titulo": "Akatsuki no Yona",
+      "categoria": "shoujo",
+      "precio": "30.00",
+      "descripcion": "Yona es la única princesa del reino Kouka, viviendo la vida lujosa y despreocupada como una princesa debería. Ella lo tiene todo: las mejores ropas, cosméticos, los dulces más divinos, un emperador amoroso como su padre, y a su guapo primo, Soo-won, y su amigo de la infancia y guardaespaldas, Hak. Pero un evento cruel e inesperado ocurre que va a cambiar el curso de su destino.",
+      "id": "4ebffe1c-488d-414f-9aa2-09b7c0dc8876"
+    },
+    {
+      "portada": "https://otakuteca.com/images/books/cover/618897ac00b22.jpg",
+      "titulo": "Akuyaku Reijou",
+      "categoria": "shoujo",
+      "precio": "17.00",
+      "descripcion": "Una mujer impopular de unos treinta años, el único placer de nuestra protagonista en la vida es leer todas las novelas web que puede conseguir mientras se sumerge en el baño. Trágicamente, se quedó dormida descuidadamente en el baño y se ahogó, y antes de abrir los ojos, entró en un mundo de novelas de fantasía con un tema ficticio de juego Otome. ¡Lo que es más es que ella transmigró como la villana Leysritt! ¡Todo lo que quería era poder disfrutar tranquilamente de mi segunda vida! Pero como salvé la vida del príncipe después de que lo atropellara un carruaje, el hermano menor del príncipe se interesó por mí, ¡¿y ahora me he convertido en su prometido ?! Con mi conocimiento de ser enfermera en mi vida pasada, quiero ser de ayuda en este mundo. Si quiero evitar un futuro de ruina ... debo aspirar a ser como Nightingale.",
+      "id": "7c2459f8-015e-40b5-9559-4bd4339095c2"
+    },
+    {
+      "portada": "https://otakuteca.com/images/books/cover/5c60f19bdc4a9.jpg",
+      "titulo": "Seijo no Maryoku",
+      "categoria": "shoujo",
+      "precio": "20.00",
+      "descripcion": "Sei, una oficinista de 20 años de edad, fue convocada a un mundo diferente después de terminar algunas horas extraordinarias. Pero la persona que la había llamado la miró a la cara y le dijo: \"Este no es el Santo\". ¿Se juega este abandono? Sei dejó el palacio real y ocultó su santo título. Ella comenzó a trabajar en un laboratorio donde hizo pociones y cosméticos. Usó su magia para satisfacer las peticiones de la gente y poco a poco la gente comenzó a sospechar que era una santa ... ¿Puede Sei disfrutar de su vida en el mundo lenta y soñadora sin que se descubra su santo título?",
+      "id": "a1c42142-ea48-4d82-ac6f-fdbdbb75f790"
+    }
+  ],
+  "usuario": [
+    {
+      "email": "user@gmail.com",
+      "password": "123"
+    }
+  ]
+}

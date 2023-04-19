@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Manga | Inicio de sesion</title>
+    <!-- FUENTES DE GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&family=Righteous&display=swap"
+        rel="stylesheet">
+
+    <!-- ICONOS REMIX -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- ESTILOS DE LA PÁGINA -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/base/base.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/base/variables.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/base/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/nav/nav.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/portada.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/formulario/form-login.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/formulario/form-rodapie.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/rodapie/rodapie.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <section class="nav-contenido contenedor">
+                <a href="./index.html"><img class="nav-logo" src="./assets/img/aluraLogo.svg" alt="Logo"></a>
+                <form class="nav-buscar">
+                    <input class="nav-buscar__input" type="search" placeholder="buscar">
+                    <a class="nav-buscar__btn" href="#">
+                        <i class="ri-search-line"></i>
+                    </a>
+                </form>
+            </section>
+        </nav>
+        <section class="portada">
+            <img class="portada__img" src="./assets/img/banner_login.jpg" alt="portada de productos">
+        </section>
+    </header>
+
+    <main>
+        <section class="form contenedor">
+            <form class="form-login " id="formulario" method="">
+                <h1 class="form-login__titulo">Iniciar Sesión</h1>
+                <div class="inputs">
+                    <input class="inputs__input" type="email" placeholder="Escriba su correo electrónico" id="txtemail"
+                        data-tipo="email" required>
+                    <span class="input__mensaje"></span>
+                </div>
+                <div class="inputs">
+                    <input class="inputs__input" type="password" placeholder="Escriba su contraseña" id="txtpass"
+                        data-tipo="pass" required>
+                    <span class="input__mensaje"></span>
+                </div>
+                <button class="form-login__boton boton" id="btnLogin" type="submit">Entrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <section class="rodapie contenedor">
+            <nav class="rodapie-menu">
+                <img class="rodapie-menu__logo" src="./assets/img/aluraLogo.svg" alt="Logo">
+                <ul class="rodapie-menu__items">
+                    <li class="rodapie-menu__link">Quienes somos</li>
+                    <li class="rodapie-menu__link">Politicas de privacidad</li>
+                    <li class="rodapie-menu__link">Programa de fidelidad</li>
+                    <li class="rodapie-menu__link">Nuestras tiendas</li>
+                    <li class="rodapie-menu__link">Quiero ser franquiciado</li>
+                    <li class="rodapie-menu__link">Anúncie aquí</li>
+                </ul>
+            </nav>
+            <form class="form-rodapie">
+                <h3 class="form-rodapie__titulo">Hable con nosotros</h3>
+                <div class="inputs">
+                    <input data-tipo="name" class="inputs__input" type="text" placeholder="Nombre:" required
+                        pattern="([A-Za-z])\w+" title="Escribe solo letras.">
+                    <span class="input__mensaje"></span>
+                </div>
+                <div class="inputs">
+                    <textarea data-tipo="message" class="inputs__textarea" type="text" placeholder="Mensaje:"
+                        required></textarea>
+                    <span class="input__mensaje"></span>
+                </div>
+                <button class="form-rodapie__boton boton" type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+        <section class="rodapie-info">
+            <p class="rodapie-info__parrafo">Desarrollado por: Carlos Macavilca</p>
+            <p class="rodapie-info__parrafo">2023</p>
+        </section>
+    </footer>
+
+    <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js
+    "></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="./controller/Usuario/login.controller.js" type="module"></script>
+</body>
+
+</html>

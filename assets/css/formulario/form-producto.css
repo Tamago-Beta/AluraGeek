@@ -1,0 +1,30 @@
+.form-producto {
+  max-width: 559px;
+  margin: 32px auto;
+}
+
+.form-producto__titulo {
+  font-family: var(--font-titulo);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--tertiary-color);
+  margin-bottom: 16px;
+}
+
+.form-producto__boton {
+  font-family: var(--font-parrafos);
+  font-size: 1.6rem;
+  border: none;
+  width: 100%;
+  height: 51px;
+}
+
+@media (min-width: 992px) {
+  .form-producto__titulo {
+    font-size: 3.2rem;
+  }
+
+  .form-producto {
+    margin: 65px auto;
+  }
+}

@@ -1,0 +1,60 @@
+.categoria {
+  position: relative;
+  width: calc(95% / 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 8px;
+}
+
+.categoria:nth-last-child(-n + 2) {
+  display: none;
+}
+
+.categoria__portada {
+  width: 100%;
+  max-width: 176px;
+  height: 174px;
+  object-fit: cover;
+}
+
+.categoria__titulo {
+  color: var(--tertiary-color);
+  font-size: var(--font-size-card-titulo);
+  font-weight: 500;
+}
+
+.categoria__precio {
+  color: var(--tertiary-color);
+  font-size: var(--font-size-card-precio);
+  font-weight: 700;
+}
+
+.categoria__id {
+  display: none;
+}
+
+.categoria__vinculo {
+  color: var(--primary-color);
+  font-size: var(--font-size-card-vinculo);
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .categoria {
+    width: calc(95% / 4);
+  }
+}
+
+@media (min-width: 992px) {
+  .categoria {
+    width: calc(95% / 6);
+  }
+  .categoria:nth-last-child(-n + 2) {
+    display: flex;
+  }
+}

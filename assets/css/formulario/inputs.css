@@ -1,0 +1,28 @@
+.inputs {
+  margin-bottom: 16px;
+}
+
+.inputs__input,
+.inputs__textarea {
+  width: 100%;
+  font-family: var(--font-parrafos);
+  font-size: var(--font-size-input);
+  outline: none;
+}
+
+.inputs__input {
+  height: 56px;
+  padding-inline: 10px;
+}
+
+.inputs__textarea {
+  height: 82px;
+  padding: 10px;
+}
+
+.input__mensaje {
+  display: inline-block;
+  margin-top: 6px;
+  color: var(--error-color);
+  font-size: var(--font-size-error);
+}

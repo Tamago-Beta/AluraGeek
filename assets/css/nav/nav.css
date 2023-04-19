@@ -1,0 +1,44 @@
+@import url("./nav-logo.css");
+@import url("./nav-boton.css");
+@import url("./nav-buscar.css");
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  z-index: 100;
+}
+
+.nav-contenido {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 72px;
+}
+
+.nav-grupo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-scrolled {
+  background: #000;
+  border-bottom: 1px solid var(--primary-color);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 768px) {
+  .nav-grupo {
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-contenido {
+    height: 115px;
+  }
+}

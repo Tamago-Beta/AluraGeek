@@ -1,0 +1,6 @@
+@import url("./categorias-cabecera.css");
+@import url("./categorias-cards.css");
+
+.categorias {
+  margin-bottom: 40px;
+}

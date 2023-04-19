@@ -1,0 +1,31 @@
+.contenedor {
+  position: relative;
+  width: 96%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.boton {
+  display: block;
+  font-size: var(--font-size-button);
+  text-align: center;
+  text-decoration: none;
+  background: var(--primary-color);
+  color: var(--tertiary-color);
+  cursor: pointer;
+}
+
+.mensaje-error {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  margin-top: 20px;
+  background: var(--color-error);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.mensaje-error--activo {
+  display: inline-flex;
+}

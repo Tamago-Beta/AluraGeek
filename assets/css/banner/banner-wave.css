@@ -1,0 +1,9 @@
+.banner-wave {
+  width: 100%;
+  height: 100%;
+}
+.banner-wave img {
+  position: absolute;
+  bottom: 0;
+  display: block;
+}

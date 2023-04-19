@@ -1,0 +1,31 @@
+.rodapie-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 31px;
+}
+
+.rodapie-menu__link {
+  color: var(--tertiary-color);
+  font-size: var(--font-size-rodapie);
+  text-align: center;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .rodapie-menu {
+    align-items: start;
+  }
+  .rodapie-menu__link {
+    text-align: start;
+  }
+}
+
+@media (min-width: 992px) {
+  .rodapie-menu {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+  }
+}

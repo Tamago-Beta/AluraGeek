@@ -1,0 +1,12 @@
+.productos-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 16px;
+}
+
+@media (min-width: 992px) {
+  .productos-cards {
+    row-gap: 64px;
+  }
+}

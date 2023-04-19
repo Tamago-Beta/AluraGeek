@@ -1,0 +1,22 @@
+.categorias-cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.categorias-cabecera__titulo {
+  font-family: var(--font-titulo);
+  font-size: var(--font-size-titulo);
+  color: var(--secundary-color);
+}
+
+.categorias-cabecera__vinculo {
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+  text-decoration: none;
+  font-size: var(--font-size-vinculo);
+  font-weight: 700;
+  color: var(--primary-color);
+}

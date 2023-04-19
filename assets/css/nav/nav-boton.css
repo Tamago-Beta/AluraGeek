@@ -1,0 +1,36 @@
+.nav-boton {
+  background: var(--transparency-color);
+  color: var(--color-elementos);
+  box-shadow: var(--box-shadow-button);
+  display: inline-flex;
+  border-radius: var(--border-button);
+  font-size: var(--font-size-button);
+  text-decoration: none;
+  color: var(--primary-color);
+
+  justify-content: center;
+  height: 40px;
+  line-height: 40px;
+}
+
+.nav-boton--login {
+  width: 133px;
+}
+
+.nav-boton--administrador {
+  width: 170px;
+}
+
+@media (min-width: 992px) {
+  .nav-boton--login {
+    width: 182px;
+    height: 51px;
+    line-height: 51px;
+  }
+
+  .nav-boton--administrador {
+    width: 188px;
+    height: 51px;
+    line-height: 51px;
+  }
+}

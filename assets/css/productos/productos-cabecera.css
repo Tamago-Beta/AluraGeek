@@ -1,0 +1,38 @@
+.productos-cabecera {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin-bottom: 16px;
+}
+
+.productos-cabecera__titulo {
+  font-family: var(--font-titulo);
+  color: var(--secundary-color);
+  font-size: var(--font-size-titulo);
+}
+
+.productos-cabecera__boton {
+  font-family: var(--font-parrafos);
+  font-size: var(--font-size-button);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  width: 170px;
+  height: 40px;
+}
+
+@media (min-width: 768px) {
+  .productos-cabecera {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 992px) {
+  .productos-cabecera__boton {
+    height: 51px;
+    width: 185px;
+  }
+}

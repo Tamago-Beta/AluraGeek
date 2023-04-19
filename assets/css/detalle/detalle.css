@@ -1,0 +1,6 @@
+@import url("./detalle-banner.css");
+@import url("./detalle-producto.css");
+
+.detalle {
+  margin-bottom: 33px;
+}

@@ -1,0 +1,27 @@
+@import url("./inputs.css");
+
+.form-rodapie {
+  width: 100%;
+}
+
+.form-rodapie__titulo {
+  font-family: var(--font-titulo);
+  font-size: 1.9rem;
+  color: var(--secundary-color);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.form-rodapie__boton {
+  width: 133px;
+  height: 40px;
+  border: none;
+  font-family: var(--font-parrafos);
+}
+
+@media (min-width: 992px) {
+  .form-rodapie__boton {
+    width: 144px;
+    height: 44px;
+  }
+}

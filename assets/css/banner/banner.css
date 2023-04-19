@@ -1,0 +1,25 @@
+@import url("../banner/banner-info.css");
+@import url("../banner/banner-wave.css");
+
+.banner {
+  position: relative;
+  background-image: url("../../img/banner.webp");
+  background-color: rgb(25, 25, 25);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 267px;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    height: 385px;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner {
+    height: 625px;
+  }
+}

@@ -1,0 +1,9 @@
+.rodapie-info {
+  background: #000;
+  padding: 25px 0;
+}
+.rodapie-info__parrafo {
+  color: #fff;
+  font-size: var(--font-size-rodapie);
+  text-align: center;
+}

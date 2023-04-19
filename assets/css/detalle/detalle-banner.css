@@ -1,0 +1,18 @@
+.detalle-banner {
+  position: relative;
+}
+
+.detalle-banner__img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.detalle-banner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}

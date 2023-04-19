@@ -1,0 +1,12 @@
+@import url("./productos-cabecera.css");
+@import url("./productos-cards.css");
+
+.productos {
+  margin: 40px auto;
+}
+
+@media (min-width: 992px) {
+  .productos {
+    margin: 71px auto;
+  }
+}

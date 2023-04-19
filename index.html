@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Manga | Tienda de mangas</title>
+
+    <!-- FUENTES DE GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&family=Righteous&display=swap"
+        rel="stylesheet">
+
+    <!-- ICONOS REMIX -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- ESTILOS DE LA PÁGINA -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/base/base.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/base/variables.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/base/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/nav/nav.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/banner/banner.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/categorias/categorias.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/categoria.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/formulario/form-rodapie.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/rodapie/rodapie.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <section class="nav-contenido contenedor">
+                <a href="#"><img class="nav-logo" src="./assets/img/aluraLogo.svg" alt="Logo"></a>
+                <div class="nav-grupo">
+                    <a href="./login.html" class="nav-boton nav-boton--login">
+                        <i class="ri-login-box-line"></i>Login
+                    </a>
+                    <form class="nav-buscar">
+                        <input class="nav-buscar__input" type="search" placeholder="buscar">
+                        <a class="nav-buscar__btn" href="#">
+                            <i class="ri-search-line"></i>
+                        </a>
+                    </form>
+                </div>
+            </section>
+        </nav>
+        <section class="banner">
+            <div class="banner-info contenedor">
+                <h1 class="banner-info__titulo">Venta de mangas</h1>
+                <h2 class="banner-info__subtitulo">Mangas seleccionados con 33% de descuento</h2>
+                <a class="banner-info__boton boton" href="#">Ver mangas</a>
+            </div>
+            <div class="banner-wave">
+                <img src="./assets/img/wave.svg" alt="">
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="contenedor" id="contenedorProductos">
+            <section class="categorias">
+                <div class="categorias-cabecera">
+                    <h2 class="categorias-cabecera__titulo">Shonen</h2>
+                    <a class="categorias-cabecera__vinculo" href="#">Ver todo
+                        <i class="ri-arrow-right-line"></i></a>
+                </div>
+
+                <div class="categorias-cards" id="categoriaShonen"></div>
+
+                <template id="templateShonen">
+                    <article class="categoria">
+                        <img class="categoria__portada" src="./assets/img/onepice.webp" alt="One Piece" data-portada>
+                        <h3 class="categoria__titulo" data-titulo>One Piece</h3>
+                        <p class="categoria__precio" data-precio>$<span>60,00</span></p>
+                        <p class="categoria__id" data-id>#<span>1</span>
+                        </p>
+                        <a class="categoria__vinculo" href="#" data-detalle="detalle">
+                            <i class="ri-book-2-fill"></i>Ver
+                            producto
+                        </a>
+                    </article>
+                </template>
+            </section>
+            <section class="categorias">
+                <div class="categorias-cabecera">
+                    <h2 class="categorias-cabecera__titulo">Seinen</h2>
+                    <a class="categorias-cabecera__vinculo" href="#">Ver todo
+                        <i class="ri-arrow-right-line"></i></a>
+                </div>
+
+                <div class="categorias-cards" id="categoriaSeinen"></div>
+
+                <template id="templateSeinen">
+                    <article class="categoria">
+                        <img class="categoria__portada" src="./assets/img/onepice.webp" alt="One Piece" data-portada>
+                        <h3 class="categoria__titulo" data-titulo>One Piece</h3>
+                        <p class="categoria__precio" data-precio>$<span>60,00</span></p>
+                        <p class="categoria__id" style="display: none;" data-id>
+                            #<span>1</span>
+                        </p>
+                        <a class="categoria__vinculo" href="#" data-detalle="detalle">
+                            <i class="ri-book-2-fill"></i>Ver
+                            producto
+                        </a>
+                    </article>
+                </template>
+            </section>
+            <section class="categorias">
+                <div class="categorias-cabecera">
+                    <h2 class="categorias-cabecera__titulo">Shoujo</h2>
+                    <a class="categorias-cabecera__vinculo" href="#">Ver todo
+                        <i class="ri-arrow-right-line"></i></a>
+                </div>
+
+                <div class="categorias-cards" id="categoriaShoujo"></div>
+
+                <template id="templateShoujo">
+                    <article class="categoria">
+                        <img class="categoria__portada" src="./assets/img/onepice.webp" alt="One Piece" data-portada>
+                        <h3 class="categoria__titulo" data-titulo>One Piece</h3>
+                        <p class="categoria__precio" data-precio>$<span>60,00</span></p>
+                        <p class="categoria__id" style="display: none;" data-id>
+                            #<span>1</span>
+                        </p>
+                        <a class="categoria__vinculo" href="#" data-detalle="detalle">
+                            <i class="ri-book-2-fill"></i>Ver
+                            producto
+                        </a>
+                    </article>
+                </template>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <section class="rodapie contenedor">
+            <nav class="rodapie-menu ">
+                <img class="rodapie-menu__logo" src="./assets/img/aluraLogo.svg" alt="Logo">
+                <ul class="rodapie-menu__items">
+                    <li class="rodapie-menu__link">Quienes somos</li>
+                    <li class="rodapie-menu__link">Politicas de privacidad</li>
+                    <li class="rodapie-menu__link">Programa de fidelidad</li>
+                    <li class="rodapie-menu__link">Nuestras tiendas</li>
+                    <li class="rodapie-menu__link">Quiero ser franquiciado</li>
+                    <li class="rodapie-menu__link">Anúncie aquí</li>
+                </ul>
+            </nav>
+            <form class="form-rodapie">
+                <h3 class="form-rodapie__titulo">Hable con nosotros</h3>
+                <div class="inputs">
+                    <input data-tipo="name" class="inputs__input" type="text" placeholder="Nombre:" required
+                        pattern="([A-Za-z])\w+" title="Escribe solo letras.">
+                    <span class="input__mensaje"></span>
+                </div>
+                <div class="inputs">
+                    <textarea data-tipo="message" class="inputs__textarea" type="text" placeholder="Mensaje:"
+                        required></textarea>
+                    <span class="input__mensaje"></span>
+                </div>
+                <button class="form-rodapie__boton boton" type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+        <section class="rodapie-info">
+            <p class="rodapie-info__parrafo">Desarrollado por: Carlos Macavilca</p>
+            <p class="rodapie-info__parrafo">2023</p>
+        </section>
+    </footer>
+    <script src="./assets/js/index.js"></script>
+    <script src="./controller/Producto/index.controller.js" type="module"></script>
+</body>
+
+</html>

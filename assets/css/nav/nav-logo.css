@@ -1,0 +1,10 @@
+.nav-logo {
+  display: block;
+  width: 100px;
+}
+
+@media (min-width: 992px) {
+  .nav-logo {
+    width: 156px;
+  }
+}
