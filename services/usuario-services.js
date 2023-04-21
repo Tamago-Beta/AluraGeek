@@ -1,8 +1,8 @@
 const mostrarUsuarios = () =>
-    fetch("http://localhost:3000/usuario").then(resp => resp.json());
+    fetch("https://apialurageek.onrender.com/usuario").then(resp => resp.json());
 
 const validarUsuario = () =>{
-    return fetch("http://localhost:3000/usuario", {
+    return fetch("https://apialurageek.onrender.com/usuario", {
         method: 'GET',
         headers: {
             'content-type': 'application/json'

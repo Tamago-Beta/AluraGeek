@@ -1,9 +1,9 @@
 const listaProductos = () =>
-    fetch('http://localhost:3000/productos').then((res) => res.json());
+    fetch('https://apialurageek.onrender.com/productos').then((res) => res.json());
 
 
 const crearProductos = (portada, titulo,categoria, precio, descripcion) => {
-    return fetch("http://localhost:3000/productos", {
+    return fetch("https://apialurageek.onrender.com/productos", {
         method: "POST",
         headers: {
             'content-type': 'application/json'
@@ -13,15 +13,15 @@ const crearProductos = (portada, titulo,categoria, precio, descripcion) => {
 }
 
 const eliminarProducto = (id) => {
-    return fetch(`http://localhost:3000/productos/`+ id, {
+    return fetch(`https://apialurageek.onrender.com/productos/`+ id, {
         method: "DELETE"
     })
 }
 
-const detalleProducto = (id) => fetch(`http://localhost:3000/productos/${id}`).then((respuesta) => respuesta.json());
+const detalleProducto = (id) => fetch(`https://apialurageek.onrender.com/productos/${id}`).then((respuesta) => respuesta.json());
 
 const actualizarProducto = (portada, titulo,categoria, precio, descripcion, id) =>{
-    return fetch(`http://localhost:3000/productos/`+ id, {
+    return fetch(`https://apialurageek.onrender.com/productos/`+ id, {
         method: 'PUT',
         headers: {
             'content-type': 'application/json'
